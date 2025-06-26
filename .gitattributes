@@ -1,2 +1,274 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>task1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+ *{
+   margin:0;
+   padding: 0;
+    body{
+        overflow: scroll;
+    }
+    header{
+        display: flex;
+       justify-content: space-between;
+       padding: 20px;
+       color: whitesmoke;
+    }
+    
+    .logo img{
+        width:200px;
+        height: 174px;
+        object-fit: cover;
+        border-radius: 10px;
+        object-position: 10px 2px;
+      box-shadow: 5px 5px black;
+      filter: brightness(1); 
+      
+    }
+    
+    nav ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+       
+    }
+    nav ul li{
+        margin-left: 20px;
+     }
+    nav ul li a{ color: beige;
+    transition: color 0.3s;
+   border-radius: 4px;
+    }
+
+    nav ul li a:hover{
+        color:black;
+        background-color:whitesmoke;
+    }
+     
+
+main{
+   opacity:0.9;
+   background-color: black;
+}
+main .box{
+    background-image: url("hands-typing-on-laptop-programming-600nw-2480023489.png" ) ;
+   object-fit: fill;
+   height:1199px;
+   width: 101%;
+   opacity:initial;
+   background-color:transparent;
+   position: absolute;
+   top:0;
+}
+#home {
+   text-align: center;
+color: azure;
+padding: 1px;
+}
+
+.box1 h2{
+   text-align: center;
+   display: flex;
+}
+
+div h2 word{
+   display:inline-block;
+   margin: 0 10px;
+   opacity: 0; }
+   
+   
+
+
+#about{
+   background-color: aliceblue;
+   border-radius: 10px;
+   width: 45%;
+   margin:10px 1px 19px 280px;
+   text-align:center;
+   padding: 10px 10px;
+
+}
+
+.service{
+ position:relative;
+ display: flex;
+   justify-content: center;
+  gap: 80px;
+   padding: 40px 20px 30px 30px;
+   background-color: aliceblue;
+   height: 230px;
+}
+.service img{
+   width: 295px; 
+   height: 230px;
+   border-radius: 10px;
+   box-shadow: 0 2px 16px;
+   transform: transform 0.3s;
+}
+.service img:hovor{
+   transform: scale(1.1);
+}
+.box1{
+   background-color: aliceblue;
+  display: flex;
+  height: 100px;
+
+}
+h3{
+   color: rgb(54, 33, 6);
+  text-align: center;
+ margin-left: 20px;
+}
+.box1 p{
+   text-align: center;
+   display: inline;
+}
+
+#contact{
+   background-color: azure;
+   border-radius: 10px;
+  width:35%;
+  text-align: center;
+  margin:19px 35% 35px ; 
+  height: 250px;
+ 
+}
+   input,textarea{
+      border-radius :5px; 
+      cursor: pointer;
+      padding: 4px;
+      text-align: center;
+      display:center;
+      margin: 1px 1px;
+
+   }
+   footer{
+      background-color: #333;
+      color: #fff;
+      padding: 40px 20px 20px;
+     
+   }
+   .footer-class{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: auto;
+      max-height: 300px;
+   }
+   .links,contact{
+      margin:10px;
+     
+   }
+   .link ul li a{
+      color:#fff;
+      text-decoration: none;}
+
+   
+      .bottom{
+         text-align: center;
+         border-top: 1px solid #555;
+         margin-top: 20px;
+         font-size: 14px;
+         padding: 10px;
+      }
+   }
+      
+   
+  
+
+     
+</style>
+<body>
+    <main>
+       <div class="box">
+    <header>
+       
+            <div class="logo">
+                <img src="https://preview.redd.it/b8x9ftc29g691.png?width=640&crop=smart&auto=webp&s=dbe372d5132fb164054419bbf4e6c14b6845e211" alt="DeepDuck AI">
+            </div>
+            <nav>         
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service"> Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+          
+        </nav>
+        </header>
+        <div class="hero" id="home">
+            <h1>"Welcome To DeepDuck AI"</h1>
+            <h2>learn coding and explore new things                         
+            </h2>
+       </div>
+
+            <section class="box1" id="about">
+                <h2>About us</h2>
+                <p>At DeepDuck AI, you don't just learn code — you engage in practical exercises that reflect real-world scenarios. From beginner-friendly lessons to advanced courses trusted by professionals, we prepare you for real-world projects.</section>
+                <section class="service">              
+                    
+                        <img src="MS_New_1920x1080_banneri_EN-1900x1069.png" alt="AI Development">
+                        
+                       
+                       
+                            <img src="istockphoto-1127443184-612x612.jpg" alt="WebSolution">                                                  
+                            
+                                <img src="Learn-Networking-How-To-Approach-Companies-For-Internship.jpg" alt="Internships">
+                               
+                               
+                    </section>
+                    <div class="box1">
+                        <h3>AI Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, autem? Assumenda.</p>
+                        <h3>web WebSolution</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, recusandae sequi?</p>
+                        <h3>Internships</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, totam? Exercitationem.</p>
+                    </div>
+
+                    <section id="contact">
+                        <h2>Contact Us</h2>
+                        <form id="contact form">
+                            <input type="text" id="name" placeholder="Enter your name" required>
+                            <input type="text" id="email" placeholder="Enter your email"required>
+                            <textarea id="message" rows="5" placeholder="Enter Message"required></textarea>
+                            <button type="submit">send message</button>
+                            </form>
+                            </section>
+
+                            <footer>
+                               <div class="footer-class">
+
+                               
+                                <div class="links">
+                                    <h4>Follow us</h3>
+                                    <ul>
+                                        <li><a href="#github">Github</a></li>
+                                        <li><a href="#linkdin">Linkdin</a></li>
+                                        <li><a href="#twitter">Twitter</a></li>
+                                        <li><a href="#youtube">Youtube</a></li>
+                                                                   
+                                    </ul>                               
+                                </div>
+                                <div class="contact">
+                                    <h4>Contact us</h4>
+                                    <p>Email:deepduck.ai@gmail.com</p>
+                                   
+                                </div>
+                                <div class="bottom">
+                                    <p>&copy; 2025 DeepDuck Al</p>
+                                </div> 
+                               </div>
+                            </footer>                                                       
+    </div>
+    </main>
+    
+</body>
+</html>
